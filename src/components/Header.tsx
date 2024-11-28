@@ -5,8 +5,8 @@ import ProfileButton from './ProfileButton';
 const Header = () => {
 
   return (
-    <header className="sticky top-0 z-50 max-clumd:z-0  bg-white shadow-sm ml-[330px] max-cmd:ml-[250px] max-cllmd:ml-[50px] max-csm:ml-[20px] max-csm:mt-[30px]">
-      <div className="flex items-center justify-between px-4 py-3 max-w-7xl mx-auto">
+    <header className="sticky z-50 max-clumd:z-0 ml-[330px] max-cmd:ml-[270px] max-cllmd:ml-[50px] max-csm:ml-[20px] max-csm:ml-[100px] mt-[10px]">
+      <div className="flex items-center justify-between px-4 py-3 max-w-7xl mx-auto ">
         {/* Logo */}
         <h1 className="text-2xl font-semibold text-gray-800">Snapshot</h1>
 

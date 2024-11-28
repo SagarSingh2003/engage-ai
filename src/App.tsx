@@ -15,7 +15,7 @@ function App() {
         <Sidebar />
         <Header />
         <div className="transition-all duration-300 md:pl-[280px] lg:pl-[332px] p-8 max-csm:p-0">
-          <div className="grid min-cmd:grid-cols-3  max-cmd:grid-cols-2   gap-6 max-cumd:grid-cols-2  max-clumd:!grid-cols-1 m-[20px]">
+          <div className=" grid min-cmd:grid-cols-3  max-cmd:grid-cols-2   gap-6 max-cumd:grid-cols-2  max-clumd:!grid-cols-1 m-[20px]">
             {statsData.map((stat, index) => (
               <StatsCard
                 key={index}
