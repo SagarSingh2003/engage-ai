@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
 import SearchBar from './SearchBar';
 import ProfileButton from './ProfileButton';
-import MobileMenu from './MobileMenu';
-import { IoMenuOutline } from 'react-icons/io5';
+
 
 const Header = () => {
 
