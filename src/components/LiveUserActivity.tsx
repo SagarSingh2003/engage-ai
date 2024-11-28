@@ -187,7 +187,7 @@ export const LiveUserActivity: React.FC = () => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-sm max-csm:p-0">
+    <div className="bg-white p-6 rounded-lg shadow-sm max-csm:p-0 ">
         
       <div className="h-[300px] relative">
         <Line options={options} data={data} />
